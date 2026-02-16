@@ -1,7 +1,7 @@
 # Proteus-Arduino-Robot-Controller
 Project Title - Arduino Robot Controller Circuits in Proteus (Simulation Projects)
 
-Overview 
+Overview: 
 This repository contains two Arduino-based robotics controller projects designed and simulated in Proteus:
 
 1. Quadruped Servo Controller using Arduino Mega

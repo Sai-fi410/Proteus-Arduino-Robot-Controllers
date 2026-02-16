@@ -10,6 +10,7 @@ Components Used:
 5. Jumper wires
 6. GND terminal / Power terminal
 
+
 Pin Connections
 
 Servo Signal Pins (PWM Output)
@@ -25,6 +26,7 @@ Servo 6	- D7,
 Servo 7	- D8,
 Servo 8	- D9
 
+
 Power Connections
 
 1. All Servo VCC → +5V External Supply
@@ -32,10 +34,12 @@ Power Connections
 3. Arduino GND → Common GND
 4. 1000µF capacitor across +5V and GND
 
+
 Working Explanation
 
 This circuit controls 8 servo motors using Arduino Mega 2560.
 The Arduino generates PWM signals to each servo, controlling its angle (0° to 180°).
+
 
 This setup is useful for:
 
@@ -43,6 +47,7 @@ This setup is useful for:
 2. Hexapod robots
 3. Robotic arm joints
 4. Servo-based walking mechanisms
+
 
 How to Simulate in Proteus
 
@@ -66,24 +71,17 @@ How to Simulate in Proteus
 
 10. Servos will rotate according to programmed motion.
 
+
 How to Upload Code in Arduino IDE
 
-Open Arduino IDE
+1. Open Arduino IDE
 
-Select:
+2. Select: Board: Arduino Mega 2560
 
-Board: Arduino Mega 2560
+3. Correct COM port
 
-Correct COM port
+4. Paste code into new sketch
 
-Paste code into new sketch
+5. Click Verify
 
-Click Verify
-
-Click Upload
-
-To generate HEX file for Proteus:
-
-Sketch → Export Compiled Binary
-
-The HEX file will be created in your sketch folder.
+6. Click Upload
